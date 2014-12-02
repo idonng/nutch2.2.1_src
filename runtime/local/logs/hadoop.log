@@ -1,0 +1,416 @@
+2014-12-02 15:40:03,638 INFO  crawl.InjectorJob - InjectorJob: starting at 2014-12-02 15:40:03
+2014-12-02 15:40:03,638 INFO  crawl.InjectorJob - InjectorJob: Injecting urlDir: urls
+2014-12-02 15:40:04,599 ERROR crawl.InjectorJob - InjectorJob: java.lang.ClassNotFoundException: org.apache.gora.sql.store.SqlStore
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:366)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:355)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:354)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:425)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:308)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:358)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:190)
+	at org.apache.nutch.storage.StorageUtils.getDataStoreClass(StorageUtils.java:89)
+	at org.apache.nutch.storage.StorageUtils.createWebStore(StorageUtils.java:73)
+	at org.apache.nutch.crawl.InjectorJob.run(InjectorJob.java:221)
+	at org.apache.nutch.crawl.InjectorJob.inject(InjectorJob.java:251)
+	at org.apache.nutch.crawl.InjectorJob.run(InjectorJob.java:273)
+	at org.apache.hadoop.util.ToolRunner.run(ToolRunner.java:65)
+	at org.apache.nutch.crawl.InjectorJob.main(InjectorJob.java:282)
+
+2014-12-02 15:41:02,605 INFO  crawl.InjectorJob - InjectorJob: starting at 2014-12-02 15:41:02
+2014-12-02 15:41:02,606 INFO  crawl.InjectorJob - InjectorJob: Injecting urlDir: urls
+2014-12-02 15:41:02,950 ERROR crawl.InjectorJob - InjectorJob: java.lang.ClassNotFoundException: org.apache.gora.sql.store.SqlStore
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:366)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:355)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:354)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:425)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:308)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:358)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:190)
+	at org.apache.nutch.storage.StorageUtils.getDataStoreClass(StorageUtils.java:89)
+	at org.apache.nutch.storage.StorageUtils.createWebStore(StorageUtils.java:73)
+	at org.apache.nutch.crawl.InjectorJob.run(InjectorJob.java:221)
+	at org.apache.nutch.crawl.InjectorJob.inject(InjectorJob.java:251)
+	at org.apache.nutch.crawl.InjectorJob.run(InjectorJob.java:273)
+	at org.apache.hadoop.util.ToolRunner.run(ToolRunner.java:65)
+	at org.apache.nutch.crawl.InjectorJob.main(InjectorJob.java:282)
+
+2014-12-02 15:42:48,760 INFO  crawl.InjectorJob - InjectorJob: starting at 2014-12-02 15:42:48
+2014-12-02 15:42:48,760 INFO  crawl.InjectorJob - InjectorJob: Injecting urlDir: urls
+2014-12-02 15:42:49,179 ERROR crawl.InjectorJob - InjectorJob: java.lang.ClassNotFoundException: org.apache.gora.sql.store.SqlStore
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:366)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:355)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:354)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:425)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:308)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:358)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:190)
+	at org.apache.nutch.storage.StorageUtils.getDataStoreClass(StorageUtils.java:89)
+	at org.apache.nutch.storage.StorageUtils.createWebStore(StorageUtils.java:73)
+	at org.apache.nutch.crawl.InjectorJob.run(InjectorJob.java:221)
+	at org.apache.nutch.crawl.InjectorJob.inject(InjectorJob.java:251)
+	at org.apache.nutch.crawl.InjectorJob.run(InjectorJob.java:273)
+	at org.apache.hadoop.util.ToolRunner.run(ToolRunner.java:65)
+	at org.apache.nutch.crawl.InjectorJob.main(InjectorJob.java:282)
+
+2014-12-02 15:45:44,986 INFO  crawl.InjectorJob - InjectorJob: starting at 2014-12-02 15:45:44
+2014-12-02 15:45:44,987 INFO  crawl.InjectorJob - InjectorJob: Injecting urlDir: urls
+2014-12-02 15:45:46,682 INFO  store.SqlStore - creating schema: nutch221_webpage
+2014-12-02 15:45:46,784 ERROR crawl.InjectorJob - InjectorJob: org.apache.gora.util.GoraException: java.io.IOException: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Column length too big for column 'text' (max = 16383); use BLOB or TEXT instead
+	at org.apache.gora.store.DataStoreFactory.createDataStore(DataStoreFactory.java:167)
+	at org.apache.gora.store.DataStoreFactory.createDataStore(DataStoreFactory.java:135)
+	at org.apache.nutch.storage.StorageUtils.createWebStore(StorageUtils.java:75)
+	at org.apache.nutch.crawl.InjectorJob.run(InjectorJob.java:221)
+	at org.apache.nutch.crawl.InjectorJob.inject(InjectorJob.java:251)
+	at org.apache.nutch.crawl.InjectorJob.run(InjectorJob.java:273)
+	at org.apache.hadoop.util.ToolRunner.run(ToolRunner.java:65)
+	at org.apache.nutch.crawl.InjectorJob.main(InjectorJob.java:282)
+Caused by: java.io.IOException: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Column length too big for column 'text' (max = 16383); use BLOB or TEXT instead
+	at org.apache.gora.sql.store.SqlStore.createSchema(SqlStore.java:226)
+	at org.apache.gora.sql.store.SqlStore.initialize(SqlStore.java:172)
+	at org.apache.gora.store.DataStoreFactory.initializeDataStore(DataStoreFactory.java:102)
+	at org.apache.gora.store.DataStoreFactory.createDataStore(DataStoreFactory.java:161)
+	... 7 more
+Caused by: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Column length too big for column 'text' (max = 16383); use BLOB or TEXT instead
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:377)
+	at com.mysql.jdbc.Util.getInstance(Util.java:360)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:978)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3887)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3823)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2435)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2582)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2530)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1907)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2141)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2077)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2062)
+	at org.apache.gora.sql.store.SqlStore.createSchema(SqlStore.java:224)
+	... 10 more
+
+2014-12-02 15:47:40,697 INFO  crawl.InjectorJob - InjectorJob: starting at 2014-12-02 15:47:40
+2014-12-02 15:47:40,697 INFO  crawl.InjectorJob - InjectorJob: Injecting urlDir: urls
+2014-12-02 15:47:41,897 INFO  crawl.InjectorJob - InjectorJob: Using class org.apache.gora.sql.store.SqlStore as the Gora storage class.
+2014-12-02 15:47:42,435 WARN  util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2014-12-02 15:47:42,870 WARN  snappy.LoadSnappy - Snappy native library not loaded
+2014-12-02 15:47:44,272 INFO  mapreduce.GoraRecordWriter - gora.buffer.write.limit = 10000
+2014-12-02 15:47:44,571 INFO  regex.RegexURLNormalizer - can't find rules for scope 'inject', using default
+2014-12-02 15:47:45,223 WARN  mapred.FileOutputCommitter - Output path is null in cleanup
+2014-12-02 15:47:45,698 INFO  crawl.InjectorJob - InjectorJob: total number of urls rejected by filters: 0
+2014-12-02 15:47:45,698 INFO  crawl.InjectorJob - InjectorJob: total number of urls injected after normalization and filtering: 30
+2014-12-02 15:47:45,699 INFO  crawl.InjectorJob - Injector: finished at 2014-12-02 15:47:45, elapsed: 00:00:05
+2014-12-02 15:47:47,261 INFO  crawl.GeneratorJob - GeneratorJob: starting at 2014-12-02 15:47:47
+2014-12-02 15:47:47,262 INFO  crawl.GeneratorJob - GeneratorJob: Selecting best-scoring urls due for fetch.
+2014-12-02 15:47:47,262 INFO  crawl.GeneratorJob - GeneratorJob: starting
+2014-12-02 15:47:47,262 INFO  crawl.GeneratorJob - GeneratorJob: filtering: false
+2014-12-02 15:47:47,262 INFO  crawl.GeneratorJob - GeneratorJob: normalizing: false
+2014-12-02 15:47:47,262 INFO  crawl.GeneratorJob - GeneratorJob: topN: 50000
+2014-12-02 15:47:47,534 INFO  crawl.FetchScheduleFactory - Using FetchSchedule impl: org.apache.nutch.crawl.DefaultFetchSchedule
+2014-12-02 15:47:47,534 INFO  crawl.AbstractFetchSchedule - defaultInterval=2592000
+2014-12-02 15:47:47,534 INFO  crawl.AbstractFetchSchedule - maxInterval=7776000
+2014-12-02 15:47:48,687 WARN  util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2014-12-02 15:47:49,431 INFO  mapreduce.GoraRecordReader - gora.buffer.read.limit = 10000
+2014-12-02 15:47:49,738 INFO  crawl.FetchScheduleFactory - Using FetchSchedule impl: org.apache.nutch.crawl.DefaultFetchSchedule
+2014-12-02 15:47:49,738 INFO  crawl.AbstractFetchSchedule - defaultInterval=2592000
+2014-12-02 15:47:49,738 INFO  crawl.AbstractFetchSchedule - maxInterval=7776000
+2014-12-02 15:47:50,512 INFO  mapreduce.GoraRecordWriter - gora.buffer.write.limit = 10000
+2014-12-02 15:47:50,817 WARN  mapred.FileOutputCommitter - Output path is null in cleanup
+2014-12-02 15:47:51,105 INFO  crawl.GeneratorJob - GeneratorJob: finished at 2014-12-02 15:47:51, time elapsed: 00:00:03
+2014-12-02 15:47:51,105 INFO  crawl.GeneratorJob - GeneratorJob: generated batch id: 1417506465-20141
+2014-12-02 15:47:52,516 INFO  fetcher.FetcherJob - FetcherJob: starting
+2014-12-02 15:47:52,517 INFO  fetcher.FetcherJob - FetcherJob: batchId: 1417506465-20141
+2014-12-02 15:47:52,518 WARN  fetcher.FetcherJob - Fetcher: Your 'http.agent.name' value should be listed first in 'http.robots.agents' property.
+2014-12-02 15:47:52,518 INFO  fetcher.FetcherJob - FetcherJob: threads: 50
+2014-12-02 15:47:52,519 INFO  fetcher.FetcherJob - FetcherJob: parsing: false
+2014-12-02 15:47:52,519 INFO  fetcher.FetcherJob - FetcherJob: resuming: false
+2014-12-02 15:47:52,519 INFO  fetcher.FetcherJob - FetcherJob : timelimit set for : 1417517272519
+2014-12-02 15:47:54,147 ERROR protocol.RobotRulesParser - Agent we advertise (idonng) not listed first in 'http.robots.agents' property!
+2014-12-02 15:47:54,147 INFO  http.Http - http.proxy.host = null
+2014-12-02 15:47:54,147 INFO  http.Http - http.proxy.port = 8080
+2014-12-02 15:47:54,147 INFO  http.Http - http.timeout = 10000
+2014-12-02 15:47:54,147 INFO  http.Http - http.content.limit = 65536
+2014-12-02 15:47:54,147 INFO  http.Http - http.agent = idonng/Nutch-2.2.1
+2014-12-02 15:47:54,147 INFO  http.Http - http.accept.language = ja-jp, en-us,en-gb,en;q=0.7,*;q=0.3
+2014-12-02 15:47:54,147 INFO  http.Http - http.accept = text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+2014-12-02 15:47:55,023 WARN  util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2014-12-02 15:47:55,794 INFO  mapreduce.GoraRecordReader - gora.buffer.read.limit = 10000
+2014-12-02 15:47:56,407 INFO  mapreduce.GoraRecordWriter - gora.buffer.write.limit = 10000
+2014-12-02 15:47:56,410 INFO  fetcher.FetcherJob - Using queue mode : byHost
+2014-12-02 15:47:56,410 INFO  fetcher.FetcherJob - Fetcher: threads: 50
+2014-12-02 15:47:56,458 INFO  fetcher.FetcherJob - Fetcher: throughput threshold: -1
+2014-12-02 15:47:56,458 INFO  fetcher.FetcherJob - Fetcher: throughput threshold sequence: 5
+2014-12-02 15:47:56,461 INFO  fetcher.FetcherJob - fetching http://led.baidajob.com/ (queue crawl delay=5000ms)
+2014-12-02 15:47:56,462 ERROR protocol.RobotRulesParser - Agent we advertise (idonng) not listed first in 'http.robots.agents' property!
+2014-12-02 15:47:56,462 INFO  http.Http - http.proxy.host = null
+2014-12-02 15:47:56,462 INFO  http.Http - http.proxy.port = 8080
+2014-12-02 15:47:56,462 INFO  http.Http - http.timeout = 10000
+2014-12-02 15:47:56,462 INFO  http.Http - http.content.limit = 65536
+2014-12-02 15:47:56,462 INFO  http.Http - http.agent = idonng/Nutch-2.2.1
+2014-12-02 15:47:56,462 INFO  http.Http - http.accept.language = ja-jp, en-us,en-gb,en;q=0.7,*;q=0.3
+2014-12-02 15:47:56,462 INFO  http.Http - http.accept = text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+2014-12-02 15:47:56,467 INFO  fetcher.FetcherJob - fetching http://bandaoti.biz/ (queue crawl delay=5000ms)
+2014-12-02 15:47:56,467 INFO  fetcher.FetcherJob - fetching http://chinaasic.com/ (queue crawl delay=5000ms)
+2014-12-02 15:47:56,467 INFO  fetcher.FetcherJob - fetching http://maxictech.com/ (queue crawl delay=5000ms)
+2014-12-02 15:47:56,468 INFO  fetcher.FetcherJob - fetching http://21ic.com/lighting/ (queue crawl delay=5000ms)
+2014-12-02 15:47:56,468 INFO  fetcher.FetcherJob - fetching http://bpsemi.com/ (queue crawl delay=5000ms)
+2014-12-02 15:47:56,469 INFO  fetcher.FetcherJob - fetching http://21dianyuan.com/ (queue crawl delay=5000ms)
+2014-12-02 15:47:56,470 INFO  fetcher.FetcherJob - fetching http://industry.1688.com/zhaoming?spm=a260y.2526341.0.0 (queue crawl delay=5000ms)
+2014-12-02 15:47:56,473 INFO  fetcher.FetcherJob - fetching http://cnledw.com/ (queue crawl delay=5000ms)
+2014-12-02 15:47:56,474 INFO  fetcher.FetcherJob - fetching http://1688.com/topic/jichengdianlu.html?spm=a260b.7058705.1996270997.48 (queue crawl delay=5000ms)
+2014-12-02 15:47:56,474 INFO  fetcher.FetcherJob - fetching http://bbs.elecfans.com/zhuti_power_1.html (queue crawl delay=5000ms)
+2014-12-02 15:47:56,474 INFO  fetcher.FetcherJob - fetching http://ledcac.com/ (queue crawl delay=5000ms)
+2014-12-02 15:47:56,474 INFO  fetcher.FetcherJob - fetching http://silan.com.cn/All/Default.aspx (queue crawl delay=5000ms)
+2014-12-02 15:47:56,474 INFO  fetcher.FetcherJob - fetching http://leadtrend.com.cn/ch/index.php (queue crawl delay=5000ms)
+2014-12-02 15:47:56,474 INFO  fetcher.FetcherJob - fetching http://lights.ofweek.com/ (queue crawl delay=5000ms)
+2014-12-02 15:47:56,474 INFO  fetcher.FetcherJob - fetching http://2ic.cn/ (queue crawl delay=5000ms)
+2014-12-02 15:47:56,475 INFO  fetcher.FetcherJob - fetching http://sifirsttech.com/en/index.html (queue crawl delay=5000ms)
+2014-12-02 15:47:56,475 INFO  fetcher.FetcherJob - fetching http://ti.com.cn/tihome/cn/docs/homepage.tsp (queue crawl delay=5000ms)
+2014-12-02 15:47:56,475 INFO  fetcher.FetcherJob - fetching http://led889.com/ (queue crawl delay=5000ms)
+2014-12-02 15:47:56,475 INFO  fetcher.FetcherJob - fetching http://ledzmw.com/ (queue crawl delay=5000ms)
+2014-12-02 15:47:56,475 INFO  fetcher.FetcherJob - fetching http://wenku.baidu.com/ (queue crawl delay=5000ms)
+2014-12-02 15:47:56,607 INFO  fetcher.FetcherJob - QueueFeeder finished: total 30 records. Hit by time limit :0
+2014-12-02 15:47:56,734 INFO  fetcher.FetcherJob - fetching http://58lighting.com/ (queue crawl delay=5000ms)
+2014-12-02 15:47:56,801 WARN  fetcher.FetcherJob - fetch of http://21dianyuan.com/ failed with: Http code=503, url=http://21dianyuan.com/
+2014-12-02 15:47:56,803 INFO  fetcher.FetcherJob - fetching http://ledth.com/ (queue crawl delay=5000ms)
+2014-12-02 15:47:56,823 INFO  regex.RegexURLNormalizer - can't find rules for scope 'fetcher', using default
+2014-12-02 15:47:56,836 INFO  regex.RegexURLNormalizer - can't find rules for scope 'fetcher', using default
+2014-12-02 15:47:56,928 INFO  fetcher.FetcherJob - fetching http://crpowtech.com/Default.aspx (queue crawl delay=5000ms)
+2014-12-02 15:47:56,963 INFO  fetcher.FetcherJob - fetching http://bbs.dianyuan.com/list-1.html (queue crawl delay=5000ms)
+2014-12-02 15:47:56,974 INFO  regex.RegexURLNormalizer - can't find rules for scope 'fetcher', using default
+2014-12-02 15:47:56,981 INFO  fetcher.FetcherJob - fetching http://on-bright.com/cn/index.htm (queue crawl delay=5000ms)
+2014-12-02 15:47:56,984 INFO  fetcher.FetcherJob - fetching http://silergy.com/cn/ (queue crawl delay=5000ms)
+2014-12-02 15:47:57,003 INFO  fetcher.FetcherJob - fetching http://led.zol.com.cn/ (queue crawl delay=5000ms)
+2014-12-02 15:47:57,226 INFO  regex.RegexURLNormalizer - can't find rules for scope 'fetcher', using default
+2014-12-02 15:47:57,449 INFO  regex.RegexURLNormalizer - can't find rules for scope 'fetcher', using default
+2014-12-02 15:48:01,459 INFO  fetcher.FetcherJob - 45/50 spinwaiting/active, 22 pages, 1 errors, 4.4 4 pages/s, 929 929 kb/s, 2 URLs in 7 queues
+2014-12-02 15:48:01,459 INFO  fetcher.FetcherJob - * queue: http://1688.com
+2014-12-02 15:48:01,459 INFO  fetcher.FetcherJob -   maxThreads    = 1
+2014-12-02 15:48:01,459 INFO  fetcher.FetcherJob -   inProgress    = 0
+2014-12-02 15:48:01,459 INFO  fetcher.FetcherJob -   crawlDelay    = 5000
+2014-12-02 15:48:01,459 INFO  fetcher.FetcherJob -   minCrawlDelay = 0
+2014-12-02 15:48:01,459 INFO  fetcher.FetcherJob -   nextFetchTime = 1417506481966
+2014-12-02 15:48:01,459 INFO  fetcher.FetcherJob -   now           = 1417506481459
+2014-12-02 15:48:01,459 INFO  fetcher.FetcherJob -   0. http://1688.com/topic/ledxiliechanpin.html?spm=a260b.7058705.1996270997.39
+2014-12-02 15:48:01,460 INFO  fetcher.FetcherJob - * queue: http://bbs.elecfans.com
+2014-12-02 15:48:01,460 INFO  fetcher.FetcherJob -   maxThreads    = 1
+2014-12-02 15:48:01,460 INFO  fetcher.FetcherJob -   inProgress    = 0
+2014-12-02 15:48:01,460 INFO  fetcher.FetcherJob -   crawlDelay    = 5000
+2014-12-02 15:48:01,460 INFO  fetcher.FetcherJob -   minCrawlDelay = 0
+2014-12-02 15:48:01,460 INFO  fetcher.FetcherJob -   nextFetchTime = 1417506482328
+2014-12-02 15:48:01,460 INFO  fetcher.FetcherJob -   now           = 1417506481460
+2014-12-02 15:48:01,460 INFO  fetcher.FetcherJob -   0. http://bbs.elecfans.com/forum.php?gid=48
+2014-12-02 15:48:01,994 INFO  fetcher.FetcherJob - fetching http://1688.com/topic/ledxiliechanpin.html?spm=a260b.7058705.1996270997.39 (queue crawl delay=5000ms)
+2014-12-02 15:48:02,060 INFO  regex.RegexURLNormalizer - can't find rules for scope 'fetcher', using default
+2014-12-02 15:48:02,330 INFO  fetcher.FetcherJob - fetching http://bbs.elecfans.com/forum.php?gid=48 (queue crawl delay=5000ms)
+2014-12-02 15:48:02,331 INFO  fetcher.FetcherJob - -finishing thread FetcherThread31, activeThreads=49
+2014-12-02 15:48:02,337 INFO  fetcher.FetcherJob - -finishing thread FetcherThread19, activeThreads=48
+2014-12-02 15:48:02,348 INFO  fetcher.FetcherJob - -finishing thread FetcherThread35, activeThreads=47
+2014-12-02 15:48:02,453 INFO  fetcher.FetcherJob - -finishing thread FetcherThread49, activeThreads=46
+2014-12-02 15:48:02,462 INFO  fetcher.FetcherJob - -finishing thread FetcherThread39, activeThreads=45
+2014-12-02 15:48:02,494 INFO  fetcher.FetcherJob - -finishing thread FetcherThread14, activeThreads=44
+2014-12-02 15:48:02,494 INFO  fetcher.FetcherJob - -finishing thread FetcherThread10, activeThreads=43
+2014-12-02 15:48:02,494 INFO  fetcher.FetcherJob - -finishing thread FetcherThread12, activeThreads=42
+2014-12-02 15:48:02,494 INFO  fetcher.FetcherJob - -finishing thread FetcherThread17, activeThreads=37
+2014-12-02 15:48:02,494 INFO  fetcher.FetcherJob - -finishing thread FetcherThread15, activeThreads=36
+2014-12-02 15:48:02,494 INFO  fetcher.FetcherJob - -finishing thread FetcherThread13, activeThreads=41
+2014-12-02 15:48:02,494 INFO  fetcher.FetcherJob - -finishing thread FetcherThread11, activeThreads=38
+2014-12-02 15:48:02,494 INFO  fetcher.FetcherJob - -finishing thread FetcherThread8, activeThreads=39
+2014-12-02 15:48:02,494 INFO  fetcher.FetcherJob - -finishing thread FetcherThread9, activeThreads=40
+2014-12-02 15:48:02,501 INFO  fetcher.FetcherJob - -finishing thread FetcherThread1, activeThreads=35
+2014-12-02 15:48:02,501 INFO  fetcher.FetcherJob - -finishing thread FetcherThread2, activeThreads=34
+2014-12-02 15:48:02,501 INFO  fetcher.FetcherJob - -finishing thread FetcherThread6, activeThreads=33
+2014-12-02 15:48:02,503 INFO  fetcher.FetcherJob - -finishing thread FetcherThread7, activeThreads=32
+2014-12-02 15:48:02,503 INFO  fetcher.FetcherJob - -finishing thread FetcherThread4, activeThreads=31
+2014-12-02 15:48:02,503 INFO  fetcher.FetcherJob - -finishing thread FetcherThread5, activeThreads=30
+2014-12-02 15:48:02,503 INFO  fetcher.FetcherJob - -finishing thread FetcherThread22, activeThreads=29
+2014-12-02 15:48:02,503 INFO  fetcher.FetcherJob - -finishing thread FetcherThread21, activeThreads=28
+2014-12-02 15:48:02,503 INFO  fetcher.FetcherJob - -finishing thread FetcherThread20, activeThreads=27
+2014-12-02 15:48:02,504 INFO  fetcher.FetcherJob - -finishing thread FetcherThread24, activeThreads=20
+2014-12-02 15:48:02,504 INFO  fetcher.FetcherJob - -finishing thread FetcherThread23, activeThreads=19
+2014-12-02 15:48:02,504 INFO  fetcher.FetcherJob - -finishing thread FetcherThread25, activeThreads=21
+2014-12-02 15:48:02,504 INFO  fetcher.FetcherJob - -finishing thread FetcherThread43, activeThreads=18
+2014-12-02 15:48:02,504 INFO  fetcher.FetcherJob - -finishing thread FetcherThread26, activeThreads=22
+2014-12-02 15:48:02,504 INFO  fetcher.FetcherJob - -finishing thread FetcherThread27, activeThreads=23
+2014-12-02 15:48:02,504 INFO  fetcher.FetcherJob - -finishing thread FetcherThread28, activeThreads=24
+2014-12-02 15:48:02,504 INFO  fetcher.FetcherJob - -finishing thread FetcherThread3, activeThreads=25
+2014-12-02 15:48:02,504 INFO  fetcher.FetcherJob - -finishing thread FetcherThread29, activeThreads=26
+2014-12-02 15:48:02,513 INFO  fetcher.FetcherJob - -finishing thread FetcherThread44, activeThreads=17
+2014-12-02 15:48:02,563 INFO  fetcher.FetcherJob - -finishing thread FetcherThread16, activeThreads=16
+2014-12-02 15:48:02,570 INFO  fetcher.FetcherJob - -finishing thread FetcherThread0, activeThreads=15
+2014-12-02 15:48:02,575 INFO  fetcher.FetcherJob - -finishing thread FetcherThread48, activeThreads=14
+2014-12-02 15:48:02,686 INFO  fetcher.FetcherJob - -finishing thread FetcherThread47, activeThreads=13
+2014-12-02 15:48:02,705 INFO  fetcher.FetcherJob - -finishing thread FetcherThread30, activeThreads=12
+2014-12-02 15:48:02,741 INFO  fetcher.FetcherJob - -finishing thread FetcherThread41, activeThreads=11
+2014-12-02 15:48:02,741 INFO  fetcher.FetcherJob - -finishing thread FetcherThread40, activeThreads=10
+2014-12-02 15:48:02,741 INFO  fetcher.FetcherJob - -finishing thread FetcherThread18, activeThreads=9
+2014-12-02 15:48:02,744 INFO  fetcher.FetcherJob - -finishing thread FetcherThread32, activeThreads=8
+2014-12-02 15:48:02,746 INFO  fetcher.FetcherJob - -finishing thread FetcherThread42, activeThreads=7
+2014-12-02 15:48:02,752 INFO  fetcher.FetcherJob - -finishing thread FetcherThread37, activeThreads=6
+2014-12-02 15:48:02,758 INFO  fetcher.FetcherJob - -finishing thread FetcherThread38, activeThreads=5
+2014-12-02 15:48:03,101 INFO  fetcher.FetcherJob - -finishing thread FetcherThread46, activeThreads=4
+2014-12-02 15:48:03,897 INFO  fetcher.FetcherJob - -finishing thread FetcherThread34, activeThreads=3
+2014-12-02 15:48:04,571 INFO  fetcher.FetcherJob - -finishing thread FetcherThread33, activeThreads=2
+2014-12-02 15:48:06,460 INFO  fetcher.FetcherJob - 0/2 spinwaiting/active, 27 pages, 1 errors, 2.7 1 pages/s, 598 267 kb/s, 0 URLs in 2 queues
+2014-12-02 15:48:06,736 ERROR http.Http - Failed with the following error: 
+java.net.SocketTimeoutException: connect timed out
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:339)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:200)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:182)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:579)
+	at org.apache.nutch.protocol.http.HttpResponse.<init>(HttpResponse.java:91)
+	at org.apache.nutch.protocol.http.Http.getResponse(Http.java:68)
+	at org.apache.nutch.protocol.http.api.HttpBase.getProtocolOutput(HttpBase.java:133)
+	at org.apache.nutch.fetcher.FetcherReducer$FetcherThread.run(FetcherReducer.java:518)
+2014-12-02 15:48:06,738 WARN  fetcher.FetcherJob - fetch of http://lights.ofweek.com/ failed with: java.net.SocketTimeoutException: connect timed out
+2014-12-02 15:48:06,739 INFO  fetcher.FetcherJob - -finishing thread FetcherThread36, activeThreads=1
+2014-12-02 15:48:07,761 INFO  regex.RegexURLNormalizer - can't find rules for scope 'fetcher', using default
+2014-12-02 15:48:07,765 INFO  fetcher.FetcherJob - -finishing thread FetcherThread45, activeThreads=0
+2014-12-02 15:48:11,460 INFO  fetcher.FetcherJob - 0/0 spinwaiting/active, 29 pages, 2 errors, 1.9 0 pages/s, 399 0 kb/s, 0 URLs in 0 queues
+2014-12-02 15:48:11,461 INFO  fetcher.FetcherJob - -activeThreads=0
+2014-12-02 15:48:12,464 WARN  mapred.FileOutputCommitter - Output path is null in cleanup
+2014-12-02 15:48:12,478 INFO  fetcher.FetcherJob - FetcherJob: done
+2014-12-02 15:48:13,162 INFO  parse.ParserJob - ParserJob: starting
+2014-12-02 15:48:13,169 INFO  parse.ParserJob - ParserJob: resuming:	false
+2014-12-02 15:48:13,169 INFO  parse.ParserJob - ParserJob: forced reparse:	false
+2014-12-02 15:48:13,169 INFO  parse.ParserJob - ParserJob: batchId:	1417506465-20141
+2014-12-02 15:48:14,669 INFO  crawl.SignatureFactory - Using Signature impl: org.apache.nutch.crawl.MD5Signature
+2014-12-02 15:48:15,377 WARN  util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2014-12-02 15:48:15,985 INFO  mapreduce.GoraRecordReader - gora.buffer.read.limit = 10000
+2014-12-02 15:48:16,010 INFO  mapreduce.GoraRecordWriter - gora.buffer.write.limit = 10000
+2014-12-02 15:48:16,015 INFO  crawl.SignatureFactory - Using Signature impl: org.apache.nutch.crawl.MD5Signature
+2014-12-02 15:48:16,096 INFO  parse.ParserJob - Parsing http://bandaoti.biz/
+2014-12-02 15:48:16,520 INFO  regex.RegexURLNormalizer - can't find rules for scope 'outlink', using default
+2014-12-02 15:48:16,723 INFO  parse.ParserJob - Parsing http://2ic.cn/
+2014-12-02 15:48:16,723 WARN  parse.ParserJob - http://2ic.cn/ skipped. Content of size 20 was truncated to 0
+2014-12-02 15:48:16,723 INFO  parse.ParserJob - Parsing http://leadtrend.com.cn/ch/index.php
+2014-12-02 15:48:16,857 INFO  parse.ParserJob - Parsing http://silan.com.cn/All/Default.aspx
+2014-12-02 15:48:16,859 INFO  parse.ParserJob - Parsing http://ti.com.cn/tihome/cn/docs/homepage.tsp
+2014-12-02 15:48:16,859 INFO  parse.ParserJob - Parsing http://led.zol.com.cn/
+2014-12-02 15:48:17,115 INFO  parse.ParserJob - Parsing http://industry.1688.com/zhaoming?spm=a260y.2526341.0.0
+2014-12-02 15:48:17,394 INFO  parse.ParserJob - Parsing http://1688.com/topic/jichengdianlu.html?spm=a260b.7058705.1996270997.48
+2014-12-02 15:48:17,395 INFO  parse.ParserJob - Parsing http://1688.com/topic/ledxiliechanpin.html?spm=a260b.7058705.1996270997.39
+2014-12-02 15:48:17,395 INFO  parse.ParserJob - Parsing http://21dianyuan.com/
+2014-12-02 15:48:17,396 INFO  parse.ParserJob - Parsing http://21ic.com/lighting/
+2014-12-02 15:48:17,397 INFO  parse.ParserJob - Parsing http://58lighting.com/
+2014-12-02 15:48:17,398 INFO  parse.ParserJob - Parsing http://led.baidajob.com/
+2014-12-02 15:48:17,608 INFO  parse.ParserJob - Parsing http://wenku.baidu.com/
+2014-12-02 15:48:17,609 INFO  parse.ParserJob - Parsing http://bpsemi.com/
+2014-12-02 15:48:17,625 INFO  parse.ParserJob - Parsing http://chinaasic.com/
+2014-12-02 15:48:17,691 INFO  parse.ParserJob - Parsing http://cnledw.com/
+2014-12-02 15:48:17,893 INFO  parse.ParserJob - Parsing http://crpowtech.com/Default.aspx
+2014-12-02 15:48:17,894 INFO  parse.ParserJob - Parsing http://bbs.dianyuan.com/list-1.html
+2014-12-02 15:48:18,123 INFO  parse.ParserJob - Parsing http://bbs.elecfans.com/forum.php?gid=48
+2014-12-02 15:48:18,208 INFO  parse.ParserJob - Parsing http://bbs.elecfans.com/zhuti_power_1.html
+2014-12-02 15:48:18,328 INFO  parse.ParserJob - Parsing http://led889.com/
+2014-12-02 15:48:18,328 WARN  parse.ParserJob - http://led889.com/ skipped. Content of size 84512 was truncated to 65256
+2014-12-02 15:48:18,329 INFO  parse.ParserJob - Parsing http://ledcac.com/
+2014-12-02 15:48:18,453 INFO  parse.ParserJob - Parsing http://ledth.com/
+2014-12-02 15:48:18,453 INFO  parse.ParserJob - Parsing http://ledzmw.com/
+2014-12-02 15:48:18,521 INFO  parse.ParserJob - Parsing http://maxictech.com/
+2014-12-02 15:48:18,538 INFO  parse.ParserJob - Parsing http://lights.ofweek.com/
+2014-12-02 15:48:18,538 INFO  parse.ParserJob - Parsing http://on-bright.com/cn/index.htm
+2014-12-02 15:48:18,542 INFO  parse.ParserJob - Parsing http://sifirsttech.com/en/index.html
+2014-12-02 15:48:18,557 INFO  parse.ParserJob - Parsing http://silergy.com/cn/
+2014-12-02 15:48:19,047 WARN  mapred.FileOutputCommitter - Output path is null in cleanup
+2014-12-02 15:48:19,833 INFO  parse.ParserJob - ParserJob: success
+2014-12-02 15:48:20,462 INFO  crawl.DbUpdaterJob - DbUpdaterJob: starting
+2014-12-02 15:48:22,021 WARN  util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2014-12-02 15:48:22,539 INFO  mapreduce.GoraRecordReader - gora.buffer.read.limit = 10000
+2014-12-02 15:48:23,410 INFO  mapreduce.GoraRecordWriter - gora.buffer.write.limit = 10000
+2014-12-02 15:48:23,414 INFO  crawl.FetchScheduleFactory - Using FetchSchedule impl: org.apache.nutch.crawl.DefaultFetchSchedule
+2014-12-02 15:48:23,414 INFO  crawl.AbstractFetchSchedule - defaultInterval=2592000
+2014-12-02 15:48:23,414 INFO  crawl.AbstractFetchSchedule - maxInterval=7776000
+2014-12-02 15:48:26,249 WARN  mapred.FileOutputCommitter - Output path is null in cleanup
+2014-12-02 15:48:26,340 INFO  crawl.DbUpdaterJob - DbUpdaterJob: done
+2014-12-02 15:48:27,001 INFO  solr.SolrIndexerJob - SolrIndexerJob: starting
+2014-12-02 15:48:27,468 INFO  basic.BasicIndexingFilter - Maximum title length for indexing set to: 100
+2014-12-02 15:48:27,469 INFO  indexer.IndexingFilters - Adding org.apache.nutch.indexer.basic.BasicIndexingFilter
+2014-12-02 15:48:27,473 INFO  anchor.AnchorIndexingFilter - Anchor deduplication is: off
+2014-12-02 15:48:27,473 INFO  indexer.IndexingFilters - Adding org.apache.nutch.indexer.anchor.AnchorIndexingFilter
+2014-12-02 15:48:28,484 WARN  util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2014-12-02 15:48:28,980 INFO  mapreduce.GoraRecordReader - gora.buffer.read.limit = 10000
+2014-12-02 15:48:29,065 INFO  solr.SolrMappingReader - source: content dest: content
+2014-12-02 15:48:29,065 INFO  solr.SolrMappingReader - source: title dest: title
+2014-12-02 15:48:29,065 INFO  solr.SolrMappingReader - source: host dest: host
+2014-12-02 15:48:29,065 INFO  solr.SolrMappingReader - source: batchId dest: batchId
+2014-12-02 15:48:29,065 INFO  solr.SolrMappingReader - source: boost dest: boost
+2014-12-02 15:48:29,065 INFO  solr.SolrMappingReader - source: digest dest: digest
+2014-12-02 15:48:29,065 INFO  solr.SolrMappingReader - source: tstamp dest: tstamp
+2014-12-02 15:48:29,070 INFO  basic.BasicIndexingFilter - Maximum title length for indexing set to: 100
+2014-12-02 15:48:29,070 INFO  indexer.IndexingFilters - Adding org.apache.nutch.indexer.basic.BasicIndexingFilter
+2014-12-02 15:48:29,070 INFO  anchor.AnchorIndexingFilter - Anchor deduplication is: off
+2014-12-02 15:48:29,070 INFO  indexer.IndexingFilters - Adding org.apache.nutch.indexer.anchor.AnchorIndexingFilter
+2014-12-02 15:48:29,913 INFO  solr.SolrWriter - Adding 17 documents
+2014-12-02 15:48:30,004 INFO  httpclient.HttpMethodDirector - I/O exception (java.net.ConnectException) caught when processing request: 拒绝连接
+2014-12-02 15:48:30,004 INFO  httpclient.HttpMethodDirector - Retrying request
+2014-12-02 15:48:30,004 INFO  httpclient.HttpMethodDirector - I/O exception (java.net.ConnectException) caught when processing request: 拒绝连接
+2014-12-02 15:48:30,004 INFO  httpclient.HttpMethodDirector - Retrying request
+2014-12-02 15:48:30,004 INFO  httpclient.HttpMethodDirector - I/O exception (java.net.ConnectException) caught when processing request: 拒绝连接
+2014-12-02 15:48:30,004 INFO  httpclient.HttpMethodDirector - Retrying request
+2014-12-02 15:48:30,005 INFO  solr.SolrWriter - Adding 17 documents
+2014-12-02 15:48:30,005 INFO  httpclient.HttpMethodDirector - I/O exception (java.net.ConnectException) caught when processing request: 拒绝连接
+2014-12-02 15:48:30,005 INFO  httpclient.HttpMethodDirector - Retrying request
+2014-12-02 15:48:30,006 INFO  httpclient.HttpMethodDirector - I/O exception (java.net.ConnectException) caught when processing request: 拒绝连接
+2014-12-02 15:48:30,006 INFO  httpclient.HttpMethodDirector - Retrying request
+2014-12-02 15:48:30,006 INFO  httpclient.HttpMethodDirector - I/O exception (java.net.ConnectException) caught when processing request: 拒绝连接
+2014-12-02 15:48:30,006 INFO  httpclient.HttpMethodDirector - Retrying request
+2014-12-02 15:48:30,006 WARN  mapred.FileOutputCommitter - Output path is null in cleanup
+2014-12-02 15:48:30,007 WARN  mapred.LocalJobRunner - job_local346881547_0001
+java.lang.Exception: java.io.IOException: org.apache.solr.client.solrj.SolrServerException: java.net.ConnectException: 拒绝连接
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.run(LocalJobRunner.java:354)
+Caused by: java.io.IOException: org.apache.solr.client.solrj.SolrServerException: java.net.ConnectException: 拒绝连接
+	at org.apache.nutch.indexer.solr.SolrWriter.close(SolrWriter.java:95)
+	at org.apache.nutch.indexer.IndexerOutputFormat$1.close(IndexerOutputFormat.java:53)
+	at org.apache.hadoop.mapred.MapTask$NewDirectOutputCollector.close(MapTask.java:650)
+	at org.apache.hadoop.mapred.MapTask.runNewMapper(MapTask.java:767)
+	at org.apache.hadoop.mapred.MapTask.run(MapTask.java:364)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job$MapTaskRunnable.run(LocalJobRunner.java:223)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:744)
+Caused by: org.apache.solr.client.solrj.SolrServerException: java.net.ConnectException: 拒绝连接
+	at org.apache.solr.client.solrj.impl.CommonsHttpSolrServer.request(CommonsHttpSolrServer.java:478)
+	at org.apache.solr.client.solrj.impl.CommonsHttpSolrServer.request(CommonsHttpSolrServer.java:244)
+	at org.apache.solr.client.solrj.request.AbstractUpdateRequest.process(AbstractUpdateRequest.java:105)
+	at org.apache.solr.client.solrj.SolrServer.add(SolrServer.java:49)
+	at org.apache.nutch.indexer.solr.SolrWriter.close(SolrWriter.java:91)
+	... 10 more
+Caused by: java.net.ConnectException: 拒绝连接
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:339)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:200)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:182)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:579)
+	at java.net.Socket.connect(Socket.java:528)
+	at java.net.Socket.<init>(Socket.java:425)
+	at java.net.Socket.<init>(Socket.java:280)
+	at org.apache.commons.httpclient.protocol.DefaultProtocolSocketFactory.createSocket(DefaultProtocolSocketFactory.java:80)
+	at org.apache.commons.httpclient.protocol.DefaultProtocolSocketFactory.createSocket(DefaultProtocolSocketFactory.java:122)
+	at org.apache.commons.httpclient.HttpConnection.open(HttpConnection.java:707)
+	at org.apache.commons.httpclient.HttpMethodDirector.executeWithRetry(HttpMethodDirector.java:387)
+	at org.apache.commons.httpclient.HttpMethodDirector.executeMethod(HttpMethodDirector.java:171)
+	at org.apache.commons.httpclient.HttpClient.executeMethod(HttpClient.java:397)
+	at org.apache.commons.httpclient.HttpClient.executeMethod(HttpClient.java:323)
+	at org.apache.solr.client.solrj.impl.CommonsHttpSolrServer.request(CommonsHttpSolrServer.java:422)
+	... 14 more
+2014-12-02 15:48:30,816 ERROR solr.SolrIndexerJob - SolrIndexerJob: java.lang.RuntimeException: job failed: name=[nutch221]solr-index, jobid=job_local346881547_0001
+	at org.apache.nutch.util.NutchJob.waitForCompletion(NutchJob.java:54)
+	at org.apache.nutch.indexer.solr.SolrIndexerJob.run(SolrIndexerJob.java:46)
+	at org.apache.nutch.indexer.solr.SolrIndexerJob.indexSolr(SolrIndexerJob.java:54)
+	at org.apache.nutch.indexer.solr.SolrIndexerJob.run(SolrIndexerJob.java:76)
+	at org.apache.hadoop.util.ToolRunner.run(ToolRunner.java:65)
+	at org.apache.nutch.indexer.solr.SolrIndexerJob.main(SolrIndexerJob.java:85)
+
